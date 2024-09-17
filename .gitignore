@@ -1,0 +1,29 @@
+#sqlite database
+data.db
+
+
+#Environment variables
+.env
+
+
+# ent generated file
+/ent/*
+!/ent/schema/
+!/ent/migrations/
+!/ent/generate.go
+
+#localstack volume
+volume
+
+
+#Generated enum file
+/enum/*
+!/enum/form_status.go
+
+
+
+#application binary
+fbOnboarding 
+
+go-enum
+/toUpload
